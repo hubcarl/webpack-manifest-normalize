@@ -1,0 +1,45 @@
+{
+  "name": "webpack-manifest-normalize",
+  "version": "0.1.0",
+  "description": "normalize webpack-manifest-plugin create manifest.json",
+  "keywords": [
+    "webpack",
+    "manifest",
+    "webpack-manifest-plugin"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-eslint": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "mocha test",
+    "ci": "npm run lint && npm run cov"
+  },
+  "files": [
+    "index.js",
+    "utils",
+    "lib",
+    "tool"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/webpack-manifest-normalize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/webpack-manifest-normalize/issues"
+  },
+  "homepage": "https://github.com/hubcarl/webpack-manifest-normalize#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT"
+}
