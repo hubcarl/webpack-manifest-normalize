@@ -1,14 +1,16 @@
 {
-  "name": "webpack-manifest-normalize",
+  "name": "webpack-manifest-resource-plugin",
   "version": "1.0.0",
-  "description": "normalize webpack-manifest-plugin create manifest.json",
+  "description": "manifest resource dependencies",
   "keywords": [
     "webpack",
     "manifest",
     "webpack-manifest-plugin"
   ],
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "fs-extra": "^0.30.0",
+    "lodash": ">=3.5 <5",
+    "mutexify": "1.0.1"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
@@ -30,16 +32,16 @@
     "tool"
   ],
   "ci": {
-    "version": "6, 7"
+    "version": "6, 8"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hubcarl/webpack-manifest-normalize.git"
+    "url": "git+https://github.com/hubcarl/webpack-manifest-resource-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/hubcarl/webpack-manifest-normalize/issues"
+    "url": "https://github.com/hubcarl/webpack-manifest-resource-plugin/issues"
   },
-  "homepage": "https://github.com/hubcarl/webpack-manifest-normalize#readme",
+  "homepage": "https://github.com/hubcarl/webpack-manifest-resource-plugin#readme",
   "author": "hubcarl@126.com",
   "license": "MIT"
 }

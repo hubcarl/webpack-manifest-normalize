@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('./lib/manifest');
+module.exports = require('./lib/plugin');
